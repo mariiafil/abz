@@ -1,9 +1,10 @@
 import React from 'react';
 import './styles/main.scss';
+import { Users } from './components/Users/Users';
 
 const App = () => (
   <>
-    <div>;lk;k</div>
+    <Users />
   </>
 );
 
