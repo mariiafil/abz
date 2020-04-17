@@ -1,0 +1,14 @@
+@import "./fonts";
+@import "./vars";
+@import "./header";
+@import "./about";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "OpenSans", sans-serif;
+  margin: 0;
+}
+

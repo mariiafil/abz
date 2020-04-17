@@ -1,0 +1,43 @@
+.about {
+  
+  background: url(../img/about_bg.png) no-repeat center;
+  width: 100%;
+  padding: 100px 0;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  &__info {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    width: 520px;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  &__details {
+    width: 520px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 40px 0;
+  }
+
+  &__button {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: $red;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+}
